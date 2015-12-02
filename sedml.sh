@@ -1,3 +1,12 @@
+# Copyright (C) 2015-2016 Myriam Leggieri <iammyr@email.com>
+#
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# Thanks to Austin Matzko for providing the core of this script in his blog post at
+# http://austinmatzko.com/2008/04/26/sed-multi-line-search-and-replace/
+
 #!/bin/sh
 echo "***Multi-line sed***"
 echo ""

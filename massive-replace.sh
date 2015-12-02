@@ -1,3 +1,9 @@
+# Copyright (C) 2015-2016 Myriam Leggieri <iammyr@email.com>
+#
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
 #!/bin/bash
 
 echo "***Multi-line substitutions across multiple files***"
