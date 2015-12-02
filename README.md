@@ -8,6 +8,6 @@ massive-replace.sh uses sedml.sh but you could also use sedml.sh directly if you
 
 ## EXAMPLES
 
-./massive-replace.sh sedml.sh tmpbase/prepared-statement src/main/java/org/owasp/benchmark/testcode tmpbase_prep 'bar\s=\snew\sString(\snew\ssun\.misc\.BASE64Decoder()\.decodeBuffer(\nnew\ssun\.misc\.BASE64Encoder()\.encode(\sparam\.getBytes()\s)\s));' 'bar=param;'
+./massive-replace.sh sedml.sh input/folder output/folder input_folder_index 'bar\s=\snew\sString(\snew\ssun\.misc\.BASE64Decoder()\.decodeBuffer(\nnew\ssun\.misc\.BASE64Encoder()\.encode(\sparam\.getBytes()\s)\s));' 'bar=param;'
 
-./sedml.sh sedmltest 's/if\s(param\s!=\snull.*}/}/g' test.out
+./sedml.sh test.in 's/if\s(param\s!=\snull.*}/hello/g' test.out
